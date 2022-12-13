@@ -17,6 +17,7 @@ body {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	background-color: $bg-color;
+	overflow: hidden;
 }
 
 h2 {
@@ -391,6 +392,18 @@ header {
 				}
 			}
 		}
+	}
+}
+
+i.snowflake {
+  position: absolute;
+  top: -50px;
+  animation: snow linear;
+}
+
+@keyframes snow {
+	to {
+		transform: translateY(110vh);
 	}
 }
 
