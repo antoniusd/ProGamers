@@ -15,6 +15,7 @@ html {
 
 body {
 	position: relative;
+	z-index: -1;
 	font-family: 'Montserrat', sans-serif;
 	background-color: $bg-color;
 	overflow: hidden;
